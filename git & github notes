@@ -1,0 +1,11 @@
+source: wwww.liaoxuefeng.com
+
+git init
+# write files
+git add <file1>
+git add <file2>
+git commit -m "<message>"
+
+git log
+git reflog
+git reset --hard <version number>
