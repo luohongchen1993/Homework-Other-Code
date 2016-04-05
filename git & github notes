@@ -17,5 +17,7 @@ git add <file> # agian!
 git commit -m "<message>"
 
 # discard changes
+git reset HEAD <file> # discard changes added to stage before commit
 git checkout --<file>
-# go back to last git commit / git add for this file
+# go back to last git commit / git add for this file, cleanup working directory
+
