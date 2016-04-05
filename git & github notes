@@ -9,3 +9,9 @@ git commit -m "<message>"
 git log
 git reflog
 git reset --hard <version number>
+
+# change file
+git add <file>
+# change file again
+git add <file> # agian!
+git commit -m "<message>"
