@@ -22,3 +22,10 @@ git checkout --<file>
 # go back to last git commit / git add for this file, cleanup working directory
 
 # how to combine git with github
+git remote add origin https://github.com/luohongchen1993/MyWeb.git
+git push -u origin master
+  later we can do:
+    # change file
+    git add -> git commit
+    git push origin master
+  to change the remote repo
