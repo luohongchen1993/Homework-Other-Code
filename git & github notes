@@ -21,3 +21,4 @@ git reset HEAD <file> # discard changes added to stage before commit
 git checkout --<file>
 # go back to last git commit / git add for this file, cleanup working directory
 
+# how to combine git with github
