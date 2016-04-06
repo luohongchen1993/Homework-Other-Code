@@ -57,3 +57,9 @@ git push origin branch-name
     git pull
     # solve conflicts locally and then push
         
+
+# tag
+
+# config
+
+# .gitignore
