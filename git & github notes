@@ -43,3 +43,17 @@ git branch # see what are the branches
 git merge --no-ff -m <message> <branchname>
 
 git stash # save something you don't wanna commit yet
+
+git branch -D <feature-branch> # force delete branch
+
+# teamwork
+git remote -v # check remote warehouse
+git push origin branch-name
+  # if this fails
+    git pull 
+      # if this also fails
+        git checkout -b branch-name origin/branch-name # create the same branch
+        git branch --set-upstream <branch-name> origin/<branch-name> # connect local and remote branches
+    git pull
+    # solve conflicts locally and then push
+        
