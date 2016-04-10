@@ -63,3 +63,19 @@ git push origin branch-name
 # config
 
 # .gitignore
+
+## git flow:
+
+git flow feature start f1
+<edit your file>
+
+while (f1 is not done)
+  git add f1.txt
+  git commit -m "add f1"
+  git flow feature publish f1 (push to remote repo)
+end while
+
+git flow feature finish f1 (merge f1 into develop locally)
+git push origin develop (push forward develop to new stage)
+
+# consider conflict management
